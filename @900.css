@@ -1,0 +1,6 @@
+@media (min-width: 1rem) and (max-width: 57rem) {
+  .container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
