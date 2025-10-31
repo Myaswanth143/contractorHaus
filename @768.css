@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .tick-mark p {
+    font-size: 20px;
+  }
+  .section-medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+  .container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .footer-ul {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+  .footer-head-2 span,
+  .footer-span-1 {
+    font-size: 34px;
+  }
+  .footer-head-3 button {
+    padding: 20px 5px;
+  }
+  .footer-head-3 {
+    align-items: center;
+  }
+  .Licensed ul {
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Licensed ul li a {
+    border-right: none;
+  }
+}

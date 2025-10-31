@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+  .section-inter-2-h1 {
+    font-size: 28px;
+  }
+  .section-inter-2 {
+    padding: 10px 5px;
+  }
+  .section-inter-1 h5 {
+    font-size: 20px;
+  }
+  .section-medium-1-p {
+    font-size: 28px;
+  }
+  .strong {
+    font-weight: bolder;
+  }
+  .section-3-child-footer {
+    font-size: 18px !important;
+  }
+  .card-minutes {
+    font-size: 26px;
+    font-weight: 600 !important;
+  }
+  .passing-score {
+    font-size: 26px;
+    margin: 5px 0px;
+    font-weight: 600 !important;
+  }
+  .pass {
+    /* margin: 10px; */
+    font-size: 24px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .section-intermediate-last a {
+    padding: 2px 30px;
+    font-size: 25px;
+  }
+}

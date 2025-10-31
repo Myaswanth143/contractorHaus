@@ -1,0 +1,7 @@
+@media (max-width: 1200px) {
+  .section-3-child {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+  }
+}
