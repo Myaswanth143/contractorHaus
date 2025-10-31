@@ -28,6 +28,7 @@ html {
   /* 10px/16px=0.625=62.5% */
   /* Percentage of users browser font-size setting */
   font-size: 62.5%;
+  position: relative;
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40,12 +41,22 @@ body {
   border: 1px solid white !important;
 }
 .section-hero {
+  margin-bottom: 78px;
   background-color: rgba(32, 59, 93, 1);
   font-size: 16px;
   color: white;
   font-weight: 700;
   /* position: sticky; */
-  position: relative;
+}
+
+.nav-div {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  max-height: 100%;
+  background-color: rgba(32, 59, 93, 1);
+  /* z-index: 1000; */
 }
 .hamburger-btn {
   position: absolute;
@@ -130,7 +141,10 @@ body {
 .container-1-div {
   background: rgba(1, 33, 104, 1);
   padding-left: 50px;
+  margin-top: 110px;
+  /* margin-top: 110px; */
 }
+
 .container-1 {
   /* width: 100%; */
   display: flex;
@@ -197,7 +211,7 @@ body {
 }
 .section-m-img {
   /* padding-top: 215px; */
-  position: relative;
+  /* position: relative; */
   width: 85%;
   height: 100%;
   height: auto;
@@ -421,143 +435,28 @@ footer {
   justify-content: center;
   align-items: center;
 }
-/* /////////////////////////////////////////////// */
-/* /////////////////////////////////////////////// */
-@media (max-width: 1050px) {
-  .section-3-child {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    align-items: center;
-    /* background-color: red; */
-  }
-
-  .section-book p {
-    font-size: 18px;
-  }
-  .section-3-child img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .images-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0px;
-    row-gap: 30px;
-  }
-  .img-last {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .pass {
-    font-size: 34px;
-  }
-  footer span {
-    font-size: 18px;
-  }
+.Licensed {
+  display: block;
+  background-color: rgba(255, 127, 39, 1);
 }
+.Licensed ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+.Licensed ul li a {
+  text-decoration: none;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 10px;
+}
+/* /////////////////////////////////////////////// */
+/* /////////////////////////////////////////////// */
 
 /* ///////////// */
-@media (max-width: 912px) {
-  .container-1-div {
-    padding-left: 15px;
-  }
-}
+
 /* /////////// */
-@media (max-width: 992px) {
-  .section-parent-div-flex {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-  }
-}
-@media (max-width: 768px) {
-  .tick-mark p {
-    font-size: 20px;
-  }
-  .section-medium {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .cards-section {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    align-items: center;
-  }
-  .container-1 {
-    flex-direction: column;
-    align-items: center;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-  }
-  .footer-ul {
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-  }
-  .footer-head-2 span,
-  .footer-span-1 {
-    font-size: 34px;
-  }
-  .footer-head-3 button {
-    padding: 20px 5px;
-  }
-}
-@media (max-width: 576px) {
-  .section-inter-2-h1 {
-    font-size: 28px;
-  }
-  .section-inter-2 {
-    padding: 10px 5px;
-  }
-  .section-inter-1 h5 {
-    font-size: 20px;
-  }
-  .section-medium-1-p {
-    font-size: 28px;
-  }
-  .strong {
-    font-weight: bolder;
-  }
-  .section-3-child-footer {
-    font-size: 18px !important;
-  }
-  .card-minutes {
-    font-size: 26px;
-    font-weight: 600 !important;
-  }
-  .passing-score {
-    font-size: 26px;
-    margin: 5px 0px;
-    font-weight: 600 !important;
-  }
-  .pass {
-    /* margin: 10px; */
-    font-size: 24px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-  }
-  .section-intermediate-last a {
-    padding: 2px 30px;
-    font-size: 25px;
-  }
-}
